@@ -1,0 +1,58 @@
+﻿body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: 'Catamaran', sans-serif;
+	background-color: #A9A8AE;
+}
+
+a {
+	color: black;
+}
+
+/* Menu CSS */ 
+
+
+#left_col {
+   float:left;
+   width:50%
+}
+#right_col {
+   float:right;
+   width:50%
+}
+
+.col_title {
+	font-size: 24px;
+}
+
+.col_contents {
+	font-size: 20px;
+}
+
+
+
+#employee-page {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#employee-title {
+	font-size: 48px;
+}
+
+
+.back-container {
+	display: inline-block;
+}
+
+.back-caption {
+	display: block;
+	font-weight: bold;
+}
+

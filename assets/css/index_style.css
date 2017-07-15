@@ -1,0 +1,114 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+}
+
+#page-wrapper {
+	height: 100%;
+}
+
+a {
+	color: white; 
+}
+
+/* Modal box's CSS */ 
+
+#modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+
+	display: none;    
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 100;
+}
+
+#modal-box {
+    width: 500px;
+    height: 260px;
+    background-color: #A9A8AE;
+    position: absolute;
+    
+    left: calc(35% - 50px);
+    top: calc(25% + 30px);
+    z-index: 100;
+
+    color: black;
+}
+
+#modal-header {
+	font-size: 24px;
+	font-weight: bold;
+    margin: 10px 5px 10px 20px;
+}
+
+#modal-content {
+	font-size: 16px;
+    margin: 15px 10px 0px 20px;
+}
+
+/* First view's CSS */ 
+
+#title-page {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+}
+
+#background {
+    background: url('background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.3;
+}
+
+#title-container {
+	position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#title {
+	font-size: 84px;
+}
+
+#title-caption {
+	font-size: 24px;
+}
+
+#enter-container {
+	position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+	font-size: 20px;
+}
+
+.menu {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.enter-caption {
+	display: block;
+}
+
+
+

@@ -1,0 +1,7 @@
+a {
+	text-decoration: none; 
+}
+
+.selected {
+	opacity: 0.75;
+}

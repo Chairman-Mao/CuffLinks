@@ -1,0 +1,92 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: 'Catamaran', sans-serif;
+	background-color: #A9A8AE;
+}
+
+a {
+	color: black;
+}
+
+/* Menu CSS */ 
+
+#employee-page {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#employee-title {
+	font-size: 48px;
+}
+
+#employee-subtitle {
+	font-size: 24px;
+}
+
+#employee-container {
+	text-align: center;
+}
+
+#final-container {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#match-link {
+	cursor: pointer;
+}
+
+.employee-picture {
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+}
+
+.employee-caption {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.interest-button {
+	background-color: #64C37D; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.final-button {
+	background-color: #64C37D; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 150px
+}
+
+.back-container {
+	display: inline-block;
+}
+
+.back-caption {
+	display: block;
+	font-weight: bold;
+}
+
+
